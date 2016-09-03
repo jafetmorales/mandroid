@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.mollys.db" android:versionCode="1" android:versionName="1.0">
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<!-- <provider android:name="com.mollys.db.TipProvider" android:authorities="com.mollys.provider.tipprovider" 
+			/> -->
+		<activity android:name=".DBListActivity" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".ConfigureDBActivity">
+		</activity>
+		<activity android:name=".ConfigureTableActivity">
+		</activity>
+		<activity android:name=".ConfigureFieldActivity">
+		</activity>
+		<activity android:name=".TableListActivity">
+		</activity>
+		<activity android:name=".RowListActivity">
+		</activity>
+		<activity android:name=".ConfigureRowActivity">
+		</activity>
+		<activity android:name=".FieldListActivity">
+		</activity>
+		<activity android:name=".ExampleUsageActivity">
+		</activity>
+	</application>
+	<uses-sdk android:minSdkVersion="7" />
+</manifest>
